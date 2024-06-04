@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "907550787976",
+    "project_id": "raincheck-ca78a",
+    "storage_bucket": "raincheck-ca78a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:907550787976:android:d342afe866e8f0f146123d",
+        "android_client_info": {
+          "package_name": "com.kazoom.raincheck"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "907550787976-80pibpbfu9pl1nvid2g1sshrejig09m3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA2-lwEBAW_B-Tl3xBWCC8n8v10iIOU_TM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "907550787976-80pibpbfu9pl1nvid2g1sshrejig09m3.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "907550787976-2c1ranrsvak2qer8nqo0u487o6e687b0.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.trackerjo.raincheck"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

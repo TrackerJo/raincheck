@@ -1,0 +1,70 @@
+Date : 2023-08-07 10:12:35
+Directory : /Users/nathanielkemmenash/Desktop/VS Code Projects/raincheck/lib
+Total : 39 files,  7132 codes, 296 comments, 573 blanks, all 8001 lines
+
+Languages
++----------+------------+------------+------------+------------+------------+
+| language | files      | code       | comment    | blank      | total      |
++----------+------------+------------+------------+------------+------------+
+| Dart     |         39 |      7,132 |        296 |        573 |      8,001 |
++----------+------------+------------+------------+------------+------------+
+
+Directories
++-------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                                                        | files      | code       | comment    | blank      | total      |
++-------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                                           |         39 |      7,132 |        296 |        573 |      8,001 |
+| . (Files)                                                                                                   |          2 |        134 |         14 |         20 |        168 |
+| helper                                                                                                      |          2 |        452 |         36 |         49 |        537 |
+| pages                                                                                                       |         10 |      3,792 |        129 |        232 |      4,153 |
+| pages (Files)                                                                                               |          8 |      3,248 |        125 |        205 |      3,578 |
+| pages/auth                                                                                                  |          2 |        544 |          4 |         27 |        575 |
+| service                                                                                                     |          3 |      1,331 |         71 |        135 |      1,537 |
+| widgets                                                                                                     |         22 |      1,423 |         46 |        137 |      1,606 |
++-------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++-------------------------------------------------------------------------------------------------------------+----------+------------+------------+------------+------------+
+| filename                                                                                                    | language | code       | comment    | blank      | total      |
++-------------------------------------------------------------------------------------------------------------+----------+------------+------------+------------+------------+
+| /Users/nathanielkemmenash/Desktop/VS Code Projects/raincheck/lib/firebase_options.dart                      | Dart     |         60 |         12 |          5 |         77 |
+| /Users/nathanielkemmenash/Desktop/VS Code Projects/raincheck/lib/helper/calendar_functions.dart             | Dart     |        395 |         33 |         34 |        462 |
+| /Users/nathanielkemmenash/Desktop/VS Code Projects/raincheck/lib/helper/helper_function.dart                | Dart     |         57 |          3 |         15 |         75 |
+| /Users/nathanielkemmenash/Desktop/VS Code Projects/raincheck/lib/main.dart                                  | Dart     |         74 |          2 |         15 |         91 |
+| /Users/nathanielkemmenash/Desktop/VS Code Projects/raincheck/lib/pages/auth/login_page.dart                 | Dart     |        168 |          2 |         10 |        180 |
+| /Users/nathanielkemmenash/Desktop/VS Code Projects/raincheck/lib/pages/auth/register_page.dart              | Dart     |        376 |          2 |         17 |        395 |
+| /Users/nathanielkemmenash/Desktop/VS Code Projects/raincheck/lib/pages/friends_page.dart                    | Dart     |        349 |         37 |         24 |        410 |
+| /Users/nathanielkemmenash/Desktop/VS Code Projects/raincheck/lib/pages/groups_page.dart                     | Dart     |        236 |         12 |         18 |        266 |
+| /Users/nathanielkemmenash/Desktop/VS Code Projects/raincheck/lib/pages/notification_page.dart               | Dart     |         35 |          0 |          4 |         39 |
+| /Users/nathanielkemmenash/Desktop/VS Code Projects/raincheck/lib/pages/plan_creation_page.dart              | Dart     |      1,420 |         13 |         67 |      1,500 |
+| /Users/nathanielkemmenash/Desktop/VS Code Projects/raincheck/lib/pages/plan_page.dart                       | Dart     |        206 |          4 |         11 |        221 |
+| /Users/nathanielkemmenash/Desktop/VS Code Projects/raincheck/lib/pages/planner_page.dart                    | Dart     |        280 |          6 |         33 |        319 |
+| /Users/nathanielkemmenash/Desktop/VS Code Projects/raincheck/lib/pages/plans_page.dart                      | Dart     |        353 |         50 |         30 |        433 |
+| /Users/nathanielkemmenash/Desktop/VS Code Projects/raincheck/lib/pages/profile_page.dart                    | Dart     |        369 |          3 |         18 |        390 |
+| /Users/nathanielkemmenash/Desktop/VS Code Projects/raincheck/lib/service/auth_service.dart                  | Dart     |         50 |          3 |         11 |         64 |
+| /Users/nathanielkemmenash/Desktop/VS Code Projects/raincheck/lib/service/database_service.dart              | Dart     |      1,162 |         67 |        102 |      1,331 |
+| /Users/nathanielkemmenash/Desktop/VS Code Projects/raincheck/lib/service/notification_service.dart          | Dart     |        119 |          1 |         22 |        142 |
+| /Users/nathanielkemmenash/Desktop/VS Code Projects/raincheck/lib/widgets/app_bar.dart                       | Dart     |         50 |          0 |          5 |         55 |
+| /Users/nathanielkemmenash/Desktop/VS Code Projects/raincheck/lib/widgets/custom_page_route.dart             | Dart     |          8 |          1 |          3 |         12 |
+| /Users/nathanielkemmenash/Desktop/VS Code Projects/raincheck/lib/widgets/friend_drop_menu_item.dart         | Dart     |         21 |          0 |          3 |         24 |
+| /Users/nathanielkemmenash/Desktop/VS Code Projects/raincheck/lib/widgets/friend_tile.dart                   | Dart     |         60 |          1 |          9 |         70 |
+| /Users/nathanielkemmenash/Desktop/VS Code Projects/raincheck/lib/widgets/friends_top_menu.dart              | Dart     |        116 |          0 |          4 |        120 |
+| /Users/nathanielkemmenash/Desktop/VS Code Projects/raincheck/lib/widgets/group_tile.dart                    | Dart     |         49 |          1 |          9 |         59 |
+| /Users/nathanielkemmenash/Desktop/VS Code Projects/raincheck/lib/widgets/navigation_bar.dart                | Dart     |         78 |          1 |          6 |         85 |
+| /Users/nathanielkemmenash/Desktop/VS Code Projects/raincheck/lib/widgets/outgoing_friend_request_tile.dart  | Dart     |         62 |          0 |          7 |         69 |
+| /Users/nathanielkemmenash/Desktop/VS Code Projects/raincheck/lib/widgets/pending_friend_request_tile.dart   | Dart     |         73 |          0 |          7 |         80 |
+| /Users/nathanielkemmenash/Desktop/VS Code Projects/raincheck/lib/widgets/pending_plans_tile.dart            | Dart     |         84 |         12 |          7 |        103 |
+| /Users/nathanielkemmenash/Desktop/VS Code Projects/raincheck/lib/widgets/plan_attendee_tile.dart            | Dart     |         45 |          0 |          5 |         50 |
+| /Users/nathanielkemmenash/Desktop/VS Code Projects/raincheck/lib/widgets/plan_invitee_tile.dart             | Dart     |         28 |          0 |          4 |         32 |
+| /Users/nathanielkemmenash/Desktop/VS Code Projects/raincheck/lib/widgets/plan_tile.dart                     | Dart     |         55 |          3 |          5 |         63 |
+| /Users/nathanielkemmenash/Desktop/VS Code Projects/raincheck/lib/widgets/planned_day_availability_tile.dart | Dart     |         74 |          0 |         10 |         84 |
+| /Users/nathanielkemmenash/Desktop/VS Code Projects/raincheck/lib/widgets/plans_top_menu.dart                | Dart     |        149 |          0 |          4 |        153 |
+| /Users/nathanielkemmenash/Desktop/VS Code Projects/raincheck/lib/widgets/review_plan_invitee_tile.dart      | Dart     |         26 |          0 |          4 |         30 |
+| /Users/nathanielkemmenash/Desktop/VS Code Projects/raincheck/lib/widgets/suggested_plan_date_tile.dart      | Dart     |         69 |          0 |         10 |         79 |
+| /Users/nathanielkemmenash/Desktop/VS Code Projects/raincheck/lib/widgets/suggested_plan_tile.dart           | Dart     |         82 |          3 |          5 |         90 |
+| /Users/nathanielkemmenash/Desktop/VS Code Projects/raincheck/lib/widgets/suggested_plan_time_tile.dart      | Dart     |         80 |          0 |         10 |         90 |
+| /Users/nathanielkemmenash/Desktop/VS Code Projects/raincheck/lib/widgets/suggested_plans_tile.dart          | Dart     |         79 |         11 |          7 |         97 |
+| /Users/nathanielkemmenash/Desktop/VS Code Projects/raincheck/lib/widgets/upcoming_plans_tile.dart           | Dart     |        100 |         13 |          7 |        120 |
+| /Users/nathanielkemmenash/Desktop/VS Code Projects/raincheck/lib/widgets/widgets.dart                       | Dart     |         35 |          0 |          6 |         41 |
+| Total                                                                                                       |          |      7,132 |        296 |        573 |      8,001 |
++-------------------------------------------------------------------------------------------------------------+----------+------------+------------+------------+------------+
