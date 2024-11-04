@@ -1249,55 +1249,7 @@ class _PlanCreationPageState extends State<PlanCreationPage> {
               const SizedBox(
                 height: 20,
               ),
-              SizedBox(
-                width: 300,
-                child: TextFormField(
-                  autocorrect: false,
-                  readOnly: true,
-                  controller: startTimeController,
-                  onTap: () async {
-                    DateTime date = DateTime.now();
-                    if (startTimeController.text.isNotEmpty) {
-                      date =
-                          DateFormat("hh:mm a").parse(startTimeController.text);
-                    }
-                    var time = await showTimePicker(
-                        context: context,
-                        initialTime: TimeOfDay.fromDateTime(date));
-
-                    if (time != null) {
-                      startTimeController.text = time.format(context);
-                    }
-                  },
-                  style: const TextStyle(color: Colors.black),
-                  decoration: textInputDecoration.copyWith(
-                    labelText: "Event Start Time",
-                  ),
-                  validator: (value) {
-                    if (value == null || value.isEmpty) {
-                      return 'Please enter a start time';
-                    }
-                    //Check if start time is before start time range
-                    DateTime startTime =
-                        DateFormat("hh:mm a").parse(startTimeController.text);
-                    DateTime startTimeRange = DateFormat("hh:mm a").parse(
-                        DateFormat("hh:mm a").format(this.startTimeRange));
-                    DateTime endTimeRange = DateFormat("hh:mm a")
-                        .parse(DateFormat("hh:mm a").format(this.endTimeRange));
-
-                    print(startTime);
-                    print(startTimeRange);
-                    if (startTime.isBefore(startTimeRange) &&
-                        startTime != startTimeRange) {
-                      return 'Please enter a start time after ${DateFormat("hh:mm a").format(startTimeRange)}';
-                    }
-                    if (startTime.isAfter(endTimeRange)) {
-                      return 'Please enter a start time before ${DateFormat("hh:mm a").format(endTimeRange)}';
-                    }
-                    return null;
-                  },
-                ),
-              ),
+              a
               const SizedBox(
                 height: 10,
               ),
